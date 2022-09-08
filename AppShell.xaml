@@ -6,9 +6,13 @@
     xmlns:local="clr-namespace:FlyoutBackgroundColor"
     FlyoutBehavior="Flyout">
 
-    <!-- Both work here:
-    <Shell.FlyoutBackgroundColor>{StaticResource Tertiary}</Shell.FlyoutBackgroundColor>
-    <Shell.FlyoutBackground>{StaticResource TertiaryBrush}</Shell.FlyoutBackground>
+    <!--  Both work here:
+    <Shell.FlyoutBackgroundColor>
+        <x:StaticResource>Tertiary</x:StaticResource>
+    </Shell.FlyoutBackgroundColor>
+    <Shell.FlyoutBackground>
+        <x:StaticResource>TertiaryBrush</x:StaticResource>
+    </Shell.FlyoutBackground>
     -->
 
     <ShellContent
