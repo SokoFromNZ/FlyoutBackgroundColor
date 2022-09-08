@@ -4,10 +4,12 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:FlyoutBackgroundColor"
-    Shell.FlyoutBehavior="Flyout">
+    FlyoutBehavior="Flyout">
 
-
-    <!-- This works: <Shell.FlyoutBackgroundColor>Red</Shell.FlyoutBackgroundColor>-->
+    <!-- Both work here:
+    <Shell.FlyoutBackgroundColor>{StaticResource Tertiary}</Shell.FlyoutBackgroundColor>
+    <Shell.FlyoutBackground>{StaticResource TertiaryBrush}</Shell.FlyoutBackground>
+    -->
 
     <ShellContent
         Title="Home"
